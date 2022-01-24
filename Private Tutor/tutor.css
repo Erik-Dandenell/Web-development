@@ -1,0 +1,38 @@
+body {
+    font-size: 100%; /* start value*/
+    margin:auto;  /* centers the page */
+    max-width: 860px;  
+  }
+ 
+  section, header, footer {
+    outline: 10px solid rgb(177, 138, 138);
+  }
+ 
+  header {
+    text-align: center;
+  }
+ 
+  .startpage h1 {
+    font-size: 500%; /* Big title on the start page*/
+  }
+ 
+  .tagline {
+    font-size: 120%;
+    padding: 0.5em; /* distance to the border*/
+    border-top: 10px double #795294;
+    border-bottom: 10px double #795294;
+    margin: 1em 0; /* distance downwards but not upwards*/
+  }
+ 
+   .menu h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #36363623;  /* very light gray*/
+    text-align: center;
+  }
+ 
+  footer {
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(19, 2, 2);
+  }
