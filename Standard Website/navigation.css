@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    width: 100;
+    overflow: hidden;
+    border: 1px solid#555;
+}
+.navbar li {
+    float: left;
+    /*Makes the list go into the left corner*/
+    text-align: center;
+    /*makes the text centered from the float point (which is now left)*/
+}
+.navbar a {
+    display:block;
+    color: rgb(100, 72, 72);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    /*this all makes the clickable text turn into clickable blocks*/
+}
+
+.navbar li a:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(236, 208, 208);
+/*background colour is the colour of the boxes, while color is the colour of the text*/
+}
+
+.bodystyling{
+    background-image: url(https://media.istockphoto.com/vectors/blurred-gradiant-mesh-background-vector-id1126426945?k=20&m=1126426945&s=612x612&w=0&h=fqeV9K-dM8C-uQU-tq2QYlRVCMzLY0zUhTDoeXc7uC4=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bodystyling2{
+    background-image: url(https://cdn.natmat.se/content/shopimages/large/93045-209712440000008917.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bodystyling3{
+    background-image: url(https://c.tenor.com/ynpNT3owqZwAAAAC/flashbang.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bodystyling4{
+    background-image: url(https://www.citygross.se/images/products/1006485_2020-03-09.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
