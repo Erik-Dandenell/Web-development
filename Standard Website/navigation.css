@@ -39,10 +39,50 @@ color: rgb(236, 208, 208);
         overflow: hidden;
   }
 
-.bodystyling{
-    background-image: url(https://media.istockphoto.com/vectors/blurred-gradiant-mesh-background-vector-id1126426945?k=20&m=1126426945&s=612x612&w=0&h=fqeV9K-dM8C-uQU-tq2QYlRVCMzLY0zUhTDoeXc7uC4=);
-    background-size: cover;
+
+
+.parallax {
+    /* The image used */
+    background-image: url("https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-videoSixteenByNine3000.jpg");
+  
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .image-container {
+        background-image: url("https://www.pawesome.net/wp-content/uploads/2020/05/dog-breeds-collage1.jpg");
+        background-size: cover;
+        position: relative; /* Needed to position the cutout text in the middle of the image */
+        height: 500px; /* Some height */
+  }
+  
+  .text {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 10vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+    background-attachment: fixed;
+  }
+  
+
+.bodystyling{
+    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
+    background-size: cover;
     
 }
 
