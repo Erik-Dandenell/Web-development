@@ -39,8 +39,42 @@ color: rgb(236, 208, 208);
         overflow: hidden;
   }
 
+.normalized {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 30%;
+    float:left;
+    border: 3px solid blanchedalmond;
+    background-color: white;
+    border-radius: 25px;
+}
+.related-image {
+    left: 100px;
+    width: 40%;
+    position: relative;
+    margin-top: 5%;
+    border: 3px solid blanchedalmond;
+    border-radius: 25px;
+}
+.normalized-right {
+    width: 100px;
+    float: right;
+    padding: 8px;;
+}
 
 
+.centered {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 3px solid blanchedalmond;
+    background-color: white;
+    border-radius: 25px;
+}
 .parallax {
     /* The image used */
     background-image: url("https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-videoSixteenByNine3000.jpg");
@@ -56,7 +90,7 @@ color: rgb(236, 208, 208);
   }
 
   .image-container {
-        background-image: url("https://www.pawesome.net/wp-content/uploads/2020/05/dog-breeds-collage1.jpg");
+        background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2013/05/puppy-dog-adoption-finder-cute-websites-featured.jpg?q=50&fit=contain&w=960&h=480&dpr=1.5");
         background-size: cover;
         position: relative; /* Needed to position the cutout text in the middle of the image */
         height: 500px; /* Some height */
@@ -87,22 +121,18 @@ color: rgb(236, 208, 208);
 }
 
 .bodystyling2{
-    background-image: url(https://cdn.natmat.se/content/shopimages/large/93045-209712440000008917.jpg);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
+    background-size: cover
 }
 
 .bodystyling3{
-    background-image: url(https://c.tenor.com/ynpNT3owqZwAAAAC/flashbang.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
+    background-size: cover
 }
 
 .bodystyling4{
-    background-image: url(https://www.citygross.se/images/products/1006485_2020-03-09.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
+    background-size: cover
+
 }
+
