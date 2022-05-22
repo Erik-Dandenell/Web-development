@@ -197,38 +197,3 @@ color: rgb(236, 208, 208);
   float: right;
 }
 
-/* Style the footer */
-.footer {
-  padding: 10px;
-  text-align: center;
-}
-
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: burlywood;
-  width: 100;
-  overflow: hidden;
-  border: 0px solid 555;
-}
-
-.navbar li {
-  float: left;
-  
-  text-align: center;
-
-}
-
-.navbar a {
-  display:block;
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 43px;
-  
-}
-
-.navbar li a:hover{
-color: rgb(255, 255, 255);
-
