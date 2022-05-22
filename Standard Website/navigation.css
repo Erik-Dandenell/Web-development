@@ -6,7 +6,7 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: rgb(153, 104, 64);
     width: 100;
     overflow: hidden;
     border: 0px solid#555;
@@ -17,18 +17,18 @@ body{
     text-align: center;
     /*makes the text centered from the float point (which is now left)*/
 }
+
 .navbar a {
     display:block;
-    color: rgb(100, 72, 72);
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 43px;
     /*this all makes the clickable text turn into clickable blocks*/
 }
 
 .navbar li a:hover{
-background-color: rgb(0, 0, 0);
-color: rgb(236, 208, 208);
+color: rgb(0, 0, 0);
 /*background colour is the colour of the boxes, while color is the colour of the text*/
 }
 
@@ -46,7 +46,7 @@ color: rgb(236, 208, 208);
     margin-top: 10%;
     width: 30%;
     float:left;
-    border: 3px solid blanchedalmond;
+    border: 5px solid burlywood;
     background-color: white;
     border-radius: 25px;
 }
@@ -55,7 +55,7 @@ color: rgb(236, 208, 208);
     width: 40%;
     position: relative;
     margin-top: 5%;
-    border: 3px solid blanchedalmond;
+    border: 5px solid burlywood;
     border-radius: 25px;
 }
 .normalized-right {
@@ -64,6 +64,10 @@ color: rgb(236, 208, 208);
     padding: 8px;;
 }
 
+.coloured-border{
+    border: 5px solid burlywood;
+    border-radius: 25px;
+}
 
 .centered {
     text-align: center;
@@ -71,7 +75,18 @@ color: rgb(236, 208, 208);
     margin-right: 10%;
     margin-top: 5%;
     padding: 2%;
-    border: 3px solid blanchedalmond;
+    border: 5px solid burlywood;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.centeredtitle {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 5px solid burlywood;
     background-color: white;
     border-radius: 25px;
 }
@@ -89,13 +104,48 @@ color: rgb(236, 208, 208);
 
   }
 
+  .centeredimage1 {
+    background-image: url("https://www.mundoperros.es/wp-content/uploads/2019/03/tres-labradores-de-color-negro-sentados-en-un-puente.jpg");
+    background-size: cover;
+    height: 500px;
+    border: burlywood solid 5px;
+    border-radius: 2px;
+    margin-top: 5%;
+  }
+
+  .centeredimage2 {
+    background-image: url("https://www.zooplus.co.uk/magazine/wp-content/uploads/2018/07/american-cocker-spaniel-in-the-grass.jpeg");
+    background-size: cover;
+    height: 600px;
+    border: burlywood solid 5px;
+    border-radius: 2px;
+    margin-top: 5%;
+  }
+
+  .centeredimage3 {
+    background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000052994/www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/exported/dog-breeds/images/tibetan-spaniel-lying-outside.jpg");
+    background-size: cover;
+    height: 600px;
+    border: burlywood solid 5px;
+    border-radius: 2px;
+    margin-top: 5%;
+    background-position: center;
+  }
+
   .image-container {
         background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2013/05/puppy-dog-adoption-finder-cute-websites-featured.jpg?q=50&fit=contain&w=960&h=480&dpr=1.5");
         background-size: cover;
         position: relative; /* Needed to position the cutout text in the middle of the image */
         height: 500px; /* Some height */
   }
-  
+
+  .image-container2 {
+    background-image: url("https://i.chzbgr.com/full/8038240768/h94B602D1/3-yawning-dogs-gif");
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 500px; /* Some height */
+  }
+
   .text {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -111,6 +161,18 @@ color: rgb(236, 208, 208);
     transform: translate(-50%, -50%); /* Position text in the middle */
     mix-blend-mode: screen; /* This makes the cutout text possible */
     background-attachment: fixed;
+  }
+
+
+  .footer {
+      margin-top: 10%;
+      padding-top: 40px;
+      text-align: center;
+      background-color: rgb(87, 55, 30);
+      width: 100;
+      height: 40px;
+      overflow: scroll;
+      color: white;
   }
   
 
@@ -135,8 +197,6 @@ color: rgb(236, 208, 208);
     background-size: cover
 
 }
-
-
 
 
 .bodystyling2 img {
