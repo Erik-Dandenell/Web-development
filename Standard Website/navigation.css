@@ -136,3 +136,99 @@ color: rgb(236, 208, 208);
 
 }
 
+
+
+
+.bodystyling2 img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.category {
+ margin-bottom: 2em;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0
+}
+
+.items li {
+  list-style-type: none;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.items li img {
+  margin-bottom: 16px;
+}
+
+.item-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.item-link, 
+.item-link:active,
+.item-link:hover {
+  color: #000;
+  text-decoration: none;
+  border: none;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  float: right;
+}
+
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+  width: 100;
+  overflow: hidden;
+  border: 0px solid 555;
+}
+
+.navbar li {
+  float: left;
+  
+  text-align: center;
+
+}
+
+.navbar a {
+  display:block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 43px;
+  
+}
+
+.navbar li a:hover{
+color: rgb(255, 255, 255);
+
