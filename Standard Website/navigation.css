@@ -1,33 +1,52 @@
-body{
+* {
     margin: 0;
-    padding: 0;
-}
+  }
+  html, body {
+    height: 100%;
+  }
 
-
+  p {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: larger;
+  }
+  
+  .wrapper:after {
+    content: "";
+    display: block;
+  }
 
 .normalized {
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 5%;
+    padding-right: 1%;
+    padding-top: 8px;
+    padding-left: 1%;
+    margin-left: 10%;
+    margin-right: 0%;
     margin-top: 10%;
-    width: 30%;
+    width: 25%;
     float:left;
     border: 5px solid burlywood;
     background-color: white;
     border-radius: 25px;
 }
+.page1fix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0
+}
+.related-div {
+    margin-top: 10%;
+    margin-left: 0%;
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+}
+
 .related-image {
-    left: 100px;
-    width: 40%;
-    position: relative;
-    margin-top: 5%;
+    width: 100%;
     border: 5px solid burlywood;
     border-radius: 25px;
-}
-.normalized-right {
-    width: 100px;
-    float: right;
-    padding: 8px;;
 }
 
 .coloured-border{
@@ -40,6 +59,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding: 2%;
     border: 5px solid burlywood;
     background-color: white;
@@ -56,20 +76,8 @@ body{
     background-color: white;
     border-radius: 25px;
 }
-.parallax {
-    /* The image used */
-    background-image: url("https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-videoSixteenByNine3000.jpg");
-  
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-  }
-
+/* Uses the same code as the titlecards but is used for other things and has other images, thus it needs to be different lines of codes.*/
   .centeredimage1 {
     background-image: url("https://www.mundoperros.es/wp-content/uploads/2019/03/tres-labradores-de-color-negro-sentados-en-un-puente.jpg");
     background-size: cover;
@@ -97,7 +105,7 @@ body{
     margin-top: 5%;
     background-position: center;
   }
-
+/* The title-card and semitransparent text CSS for every page*/
   .image-container {
         background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2013/05/puppy-dog-adoption-finder-cute-websites-featured.jpg?q=50&fit=contain&w=960&h=480&dpr=1.5");
         background-size: cover;
@@ -133,6 +141,13 @@ body{
     height: 500px; /* Some height */
   }
 
+  .image-container6 {
+      background-image: url("https://c.tenor.com/qEp1RXAIc1wAAAAC/dog-call.gif");
+      background-size: cover;
+      position: relative;
+      height: 500px;
+  }
+
   .text {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -150,17 +165,30 @@ body{
     background-attachment: fixed;
   }
 
-
+  /*footer*/
 .footer {
-      margin-top: 10%;
-      padding-top: 40px;
-      text-align: center;
-      background-color: rgb(87, 55, 30);
-      width: 100;
-      height: 40px;
-      color: white;
-  }
-  
+    padding-top: 40px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(87, 55, 30);
+    width: 100;
+    height: 40px;
+    color: white;
+    position: sticky;
+}
+/* a second footer for tab4, it breaks otherwise since the contents of that page doesnt really cover any physical space on the tab, which just makes the first footer not work*/
+.footer2{
+    padding-top: 40px;
+    margin-top: 20%;
+    text-align: center;
+    background-color: rgb(87, 55, 30);
+    width: 100;
+    height: 40px;
+    color: white;
+    position: sticky;
+}
+
+/* Background */
 
 .bodystyling{
     background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
@@ -168,21 +196,12 @@ body{
     
 }
 
-.bodystyling2{
-    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
-    background-size: cover
+.bodystyling2 {
+    background-color: rgb(252, 221, 181);
+    background-size: cover;
 }
 
-.bodystyling3{
-    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
-    background-size: cover
-}
-
-.bodystyling4{
-    background-image: url(https://media.istockphoto.com/photos/white-paper-background-picture-id1040425512?b=1&k=20&m=1040425512&s=170667a&w=0&h=mo6rWtHjzwQCJuwcBjRBzPuSzvZ-iDWqpAHDDrXETOg=);
-    background-size: cover
-}
-
+/* item lineupps/store CSS*/
 
 .items img {
   border: 0px solid #ddd;
@@ -243,18 +262,22 @@ body{
   float: right;
 }
 
+/*navigationbar CSS*/
+
 .logoimage {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    border: black 3px solid;
+    background-color: rgb(238, 238, 238);
 }
 
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(153, 104, 64);
+    background-color: transparent;
     width: 100;
     overflow: hidden;
     border: 0px solid#555;
@@ -268,17 +291,80 @@ body{
 
 .navbar a {
     display:block;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
     /*this all makes the clickable text turn into clickable blocks*/
 }
 
 .navbar li a:hover{
-color: rgb(0, 0, 0);
-/*background colour is the colour of the boxes, while color is the colour of the text*/
+color: rgb(64, 113, 153);
+text-decoration: underline;
 }
+
+.navbarfix {
+    float: right;
+    margin: 0;
+    padding: 0;
+    outline: white solid 2px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+/* Here begins the social media stuff, sticky bar and the actual contact us page CSS*/
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  /* Contact us page CSS*/
+
 
 .socials body {
     margin:0;
@@ -289,8 +375,8 @@ color: rgb(0, 0, 0);
   }
   
   .socials ul {
-    position:absolute;
-    top:50%;
+    position: absolute;
+    top: 80%;
     left:50%;
     transform:translate(-50%, -50%);
     display:flex;
@@ -327,7 +413,7 @@ color: rgb(0, 0, 0);
     display:block;
     width:210px;
     height:80px;
-    background: #fff;
+    background: burlywood;
     text-align:left;
     padding-left: 20px;
     transform: rotate(-30deg) skew(25deg) translate(0,0);
@@ -341,7 +427,7 @@ color: rgb(0, 0, 0);
     left:-20px;
     height:100%;
     width:20px;
-    background: #b1b1b1;
+    background: rgb(207, 172, 127);
     transform: .5s;
     transform: rotate(0deg) skewY(-45deg);
   }
@@ -352,7 +438,7 @@ color: rgb(0, 0, 0);
     left:-10px;
     height:20px;
     width:100%;
-    background: #b1b1b1;
+    background: rgb(207, 172, 127);
     transform: .5s;
     transform: rotate(0deg) skewX(-45deg);
   }
@@ -363,11 +449,11 @@ color: rgb(0, 0, 0);
   }
   
   .socials ul li:hover .fa {
-    color:#fff;
+    color: burlywood
   }
   
   .socials ul li:hover span {
-    color:#fff;
+    color:burlywood
   }
   
   .socials ul li:hover:nth-child(1) a{
