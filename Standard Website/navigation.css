@@ -301,8 +301,8 @@ text-decoration: underline;
 
 .navbarfix {
     float: left;
-    border-right: rgb(255, 255, 255) solid 2px;
-    border-bottom: rgb(255, 255, 255) solid 2px;
+    border-right: rgb(255, 255, 255) solid 8px;
+    border-bottom: rgb(255, 255, 255) solid 8px;
     width: 60%;
 }
 
