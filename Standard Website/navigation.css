@@ -267,10 +267,7 @@
 .logoimage {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     overflow: hidden;
-    border: black 3px solid;
-    background-color: rgb(238, 238, 238);
 }
 
 .navbar {
@@ -280,7 +277,6 @@
     background-color: transparent;
     width: 100;
     overflow: hidden;
-    border: 0px solid#555;
 }
 .navbar li {
     float: left;
@@ -291,25 +287,27 @@
 
 .navbar a {
     display:block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     /*this all makes the clickable text turn into clickable blocks*/
 }
 
 .navbar li a:hover{
-color: rgb(64, 113, 153);
+color: rgb(166, 215, 255);
 text-decoration: underline;
 }
 
 .navbarfix {
-    float: right;
-    margin: 0;
-    padding: 0;
-    outline: white solid 2px;
-    border-radius: 25px;
-    background-color: white;
+    float: left;
+    border-right: rgb(255, 255, 255) solid 2px;
+    border-bottom: rgb(255, 255, 255) solid 2px;
+    width: 60%;
+}
+
+.navbarfix2 {
+padding-top: 30px;
 }
 
 /* Here begins the social media stuff, sticky bar and the actual contact us page CSS*/
@@ -495,4 +493,3 @@ text-decoration: underline;
   .socials ul li:hover:nth-child(4) a:after{
     background: #e46880;
   }
-/* Done*/
